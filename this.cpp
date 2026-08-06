@@ -1,3 +1,13 @@
 #include <iostream>
 using namespace std;
 
+class buku{
+    string judul;
+public:
+    string setget(string a){
+        this->judul = a; //nilai parameter 'judul' untuk member
+                         //variabel 'judul'
+        return this->judul; // return variabel judul.
+    }
+};
+
